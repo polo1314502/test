@@ -5,6 +5,7 @@ console.log("hihihih");
 console.log("fuck you");
 console.log("hihihih");
 
+console.log("thank you fou your help");
 // git add .
 // git commit -m "???"
 // git push
