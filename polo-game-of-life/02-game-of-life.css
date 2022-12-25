@@ -1,0 +1,137 @@
+body {
+  overflow-x: hidden;
+  background: #FFFBFB;
+  background: -moz-radial-gradient(center, #FFFBFB 0%, #C3CBC5 55%, #020A0F 100%);
+  background: -webkit-radial-gradient(center, #FFFBFB 0%, #C3CBC5 55%, #020A0F 100%);
+  background: radial-gradient(ellipse at center, #FFFBFB 0%, #C3CBC5 55%, #020A0F 100%);
+}
+
+#canvas {
+  padding-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #canvas {
+    width: auto;
+  }
+}
+
+.box-of-slider {
+  width: auto;
+  margin: 5px;
+  margin-top: 0.5em;
+  background-color: transparent;
+  color: white;
+  border: blue 1px solid;
+  border-radius: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.box-of-slider:hover {
+  -webkit-box-shadow: 0px 0px 16px 9px rgba(247, 247, 247, 0.75);
+  box-shadow: 0px 0px 16px 9px rgba(247, 247, 247, 0.75);
+  background-color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .box-of-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+  }
+}
+
+.polo-btn {
+  width: 5em;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  background-color: transparent;
+  color: white;
+  border: blue 1px solid;
+}
+
+.polo-btn:hover {
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 0px 0px 16px 9px rgba(247, 247, 247, 0.75);
+  box-shadow: 0px 0px 16px 9px rgba(247, 247, 247, 0.75);
+}
+
+
+@media only screen and (max-width: 768px) {
+  .polo-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    width: 80vw;
+  }
+}
+
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .buttonGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+  }
+}
+
+
+.sliderGroup {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .sliderGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+.controlPanel {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+/**
+@media only screen and (max-width: 768px) {
+    .controlPanel {
+      width: 100vw;
+    }
+  }
+  **/
