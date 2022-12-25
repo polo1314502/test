@@ -1,0 +1,42 @@
+body {
+  background-image: linear-gradient(to left, rgb(0, 48, 97), rgb(53, 0, 139));
+}
+
+h1 {
+  font-family: "Rubik 80s Fade", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+}
+button {
+  background-color: rgb(0, 164, 213);
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  margin: 5px;
+}
+
+.form-range {
+  height: auto;
+  width: auto;
+}
+
+.thebody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-label {
+  color: antiquewhite;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#position {
+  color: whitesmoke;
+}
